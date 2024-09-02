@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 25: end of line expected.
-    show Unknown Mad at right with s "YOU’RE LATE FOR SCHOOL!!!" with vpunch 
-                                     ^
+File "game/script.rpy", line 18: expected statement.
+    at right
+    ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Mon Sep  2 20:31:04 2024
+Mon Sep  2 21:14:57 2024

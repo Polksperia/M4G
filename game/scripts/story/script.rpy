@@ -13,18 +13,22 @@ define j = Character("Jim")
 label start:
 
     scene bg room
+    with fade
 
-    show Unknown at right with easeinright
+    show Unknown at right
+    with easeinright
 
     s "Wake up Top☆Magical☆Girl."
 
-    show Georgie at left with easeinleft
+    show Georgie at left
+    with easeinleft
 
     g "..."
 
     show Unknown (Mad) at right
     
-    s "YOU'RE LATE FOR SCHOOL!!!" with vpunch
+    s "YOU'RE LATE FOR SCHOOL!!!"
+    with vpunch
 
     show Georgie (Mad) at left
 
@@ -48,11 +52,11 @@ label start:
 
     g "Well, great! It's been great working with you—"
 
-    "Not really"
+    "(Not really)"
 
     g "—but I think it's time for both of us to move on"
 
-    "And I can finally transition, go to college, and live a normal life" 
+    "(And I can finally transition, go to college, and live a normal life)" 
 
     s "You remember that I can read your mind right!"
 
@@ -162,4 +166,4 @@ label start:
 
     g "...Of course I do"
 
-    return
+    jump night1
