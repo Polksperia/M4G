@@ -27,8 +27,7 @@ label start:
 
     show Unknown (Mad) at right
     
-    s "YOU'RE LATE FOR SCHOOL!!!"
-    with vpunch
+    s "YOU'RE LATE FOR SCHOOL!!!" with vpunch
 
     show Georgie (Mad) at left
 
@@ -166,4 +165,4 @@ label start:
 
     g "...Of course I do"
 
-    jump night1
+    jump night1_start
